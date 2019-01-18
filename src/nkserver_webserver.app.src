@@ -1,0 +1,13 @@
+{application, nkserver_webserver, [
+    {description, "Netcomposer WEBSERVER Package"},
+    {vsn, "develop"},
+    {modules, []},
+    {registered, []},
+    {mod, {nkserver_webserver_app, []}},
+    {applications, [
+        nkpacket,
+        nkserver
+    ]},
+    {env, [
+    ]}
+]}.

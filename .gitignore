@@ -1,0 +1,10 @@
+log
+ebin
+.eunit
+.DS_Store
+_build
+/nkserver.version
+/.rebar3
+rebar.lock
+/nkserver_rest.version
+/_checkouts
